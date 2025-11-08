@@ -1,13 +1,14 @@
 public class Conditions{
     public static void main(String[] args){
-        int my_age=20;
-        int voting_age=18;
+        int age=16;
 
-        if(my_age>voting_age){
-            System.out.println("Old Enough To Vote.");
+        if (age>=18){
+            System.out.println("free to vote");
         }
-        else{
-            System.out.println("Not Old Enough To Vote.");
+        else
+        {
+            System.out.println("Not Free To Vote.");
         }
+
     }
 }
